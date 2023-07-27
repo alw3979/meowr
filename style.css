@@ -43,7 +43,7 @@ body {
 button {
     background-color: #3882F6;
     border: none;
-    color: inherit; 
+    color: #F9FAF8; 
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
@@ -122,3 +122,35 @@ h2 {
     margin: 100px;
 }
 
+.call-to-action {
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    padding: 50px 75px;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #F9FAF8;
+    margin: 0px;
+    font-weight: bold;
+}
+
+p {
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.sign-up > button {
+    border-color: #F9FAF8;
+    border: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 25px 0px;
+}
