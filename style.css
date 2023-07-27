@@ -82,3 +82,43 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.img-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 100px 100px;
+    justify-content: center;
+}
+
+.img-containers > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 52px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.img-containers > ul > li {
+    max-width: 100px;
+    text-align: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.quote > .quote-text {
+    margin: 100px;
+}
+
